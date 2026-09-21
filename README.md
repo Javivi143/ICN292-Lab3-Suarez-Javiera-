@@ -1,21 +1,23 @@
 # ICN292-Lab3-Suarez-Javiera-
 
 # Laboratorio 3 - Automatización del proceso de devoluciones mediante n8n
-Nombre: Javiera Suárez 
-Rut: 21342846
-Fecha: 22 de septiembre de 2026 
-Asignatura: ICN292 
+- Nombre: Javiera Suárez 
+- Rut: 21342846
+- Fecha: 22 de septiembre de 2026 
+- Asignatura: ICN292 
 
 ## Descripción
 En este laboratorio se desarrolló un sistema de automatización en n8n para procesar las solicitudes de devolución de AndesHogar. El sistema clasifica las solicitudes según las reglas establecidas, registra los resultados y envía una notificación al cliente. Además, se implementó un workflow para generar un resumen diario de las solicitudes procesadas.
 
 ## Archivos 
 - Informe PDF y Word: desarrollo del laboratorio, resultados y evidencias.
-- triage.json: workflow principal de clasificación de solicitudes.
-- emisor.json: workflow utilizado para enviar las solicitudes de prueba.
-- resumen.json: workflow de generación del resumen diario.
-- solicitudes.json y solicitudes.xlsx: datos utilizados durante el laboratorio.
-- capturas/: evidencias de las ejecuciones y pruebas realizadas.
+- Workflows/: archivos JSON de los tres workflows desarrollados en n8n:
+    - triage.json: workflow principal de clasificación de solicitudes.
+    - emisor.json: workflow utilizado para enviar las solicitudes de prueba.
+    - resumen.json: workflow de generación del resumen diario.
+- solicitudes.xlsx: datos utilizados durante el laboratorio.
+- Ejecuciones_exitosas/: capturas de las ejecuciones exitosas de los workflows.
+- Ejecuciones_fallidas/: capturas de los errores y pruebas realizadas durante el laboratorio.
   
 ## Cómo reproducir el laboratorio 
 1. Importar los tres archivos JSON de los workflows en n8n.

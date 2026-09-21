@@ -5,13 +5,14 @@
 - Rut: 21342846
 - Fecha: 22 de septiembre de 2026 
 - Asignatura: ICN292
+
+## Descripción
+En este laboratorio se desarrolló un sistema de automatización en n8n para procesar las solicitudes de devolución de AndesHogar. El sistema clasifica las solicitudes según las reglas establecidas, registra los resultados y envía una notificación al cliente. Además, se implementó un workflow para generar un resumen diario de las solicitudes procesadas.
+
 ## Datos
 - S = 846
 - U = $76.000
 - D = 21 días
-
-## Descripción
-En este laboratorio se desarrolló un sistema de automatización en n8n para procesar las solicitudes de devolución de AndesHogar. El sistema clasifica las solicitudes según las reglas establecidas, registra los resultados y envía una notificación al cliente. Además, se implementó un workflow para generar un resumen diario de las solicitudes procesadas.
 
 ## Archivos 
 - Informe PDF y Word: desarrollo del laboratorio, resultados y evidencias.
